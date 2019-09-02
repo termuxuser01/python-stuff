@@ -1,5 +1,6 @@
-a = input("enter a number: ")
-num = int(a)
+a = int(
+  input("enter a number: ")
+)
 def factorial(num):
   f = 1
   while num > 0:
@@ -10,4 +11,4 @@ def factorial(num):
     else:
       continue
   
-factorial(num)
+factorial(a)
