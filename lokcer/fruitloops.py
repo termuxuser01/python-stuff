@@ -35,9 +35,7 @@ while y == y:
     y += 1
 print("break worked")
 
-inpt = int(
-    input("enter a number")
-    )
+inpt = int(input("enter a number"))
 nl = [1 , 4, 6, 45, 87, 68, 98, 7]
 for num in nl:
     if num == inpt:
